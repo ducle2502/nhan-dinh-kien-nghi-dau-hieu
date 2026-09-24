@@ -1,0 +1,14 @@
+[
+  {"query":"Viết lại hai cột Nhận định và kiến nghị, Dấu hiệu cho file theo dõi chỉ đạo này","should_trigger":true},
+  {"query":"Soát giúp các đầu việc quá hạn và báo hoàn thành nhưng chưa có bằng chứng","should_trigger":true},
+  {"query":"Nhận xét tiến độ theo từng ID qua các snapshot, đừng chỉ nhìn kỳ mới nhất","should_trigger":true},
+  {"query":"Các dòng đề xuất ngừng theo dõi có được xóa chưa?","should_trigger":true},
+  {"query":"Tạo nhận định kiểm toán từ bảng deadline, PIC và kết quả cập nhật","should_trigger":true},
+  {"query":"Dòng nào không có tiến triển thực chất giữa 10/9 và 17/9?","should_trigger":true},
+  {"query":"Sửa chính tả cho cột Tóm tắt nội dung chỉ đạo","should_trigger":false},
+  {"query":"Tạo công thức Excel tính số ngày còn lại","should_trigger":false},
+  {"query":"Lập lịch họp kiểm điểm tiến độ vào thứ Sáu","should_trigger":false},
+  {"query":"Đánh giá nhân viên nào làm việc kém nhất","should_trigger":false},
+  {"query":"Viết email nhắc các đơn vị cập nhật tiến độ","should_trigger":false},
+  {"query":"Vẽ dashboard số lượng chỉ đạo theo khối","should_trigger":false}
+]

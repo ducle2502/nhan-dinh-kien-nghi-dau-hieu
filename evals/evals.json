@@ -1,1 +1,23 @@
-Test
+{
+  "skill_name": "nhan-dinh-kien-nghi-dau-hieu",
+  "evals": [
+    {
+      "id": "overdue-multi-snapshot",
+      "prompt": "Dựa trên file evals/files/cases.csv, viết lại Nhận định và kiến nghị và Dấu hiệu. Phải so sánh theo ID qua các snapshot.",
+      "expected_output": "For ID A, uses the latest snapshot, states 50 days overdue, recognizes that the August forecast expired, identifies missing deliverables, and does not merely copy the prior snapshot wording.",
+      "files": ["evals/files/cases.csv"]
+    },
+    {
+      "id": "unsupported-completion",
+      "prompt": "Soát các dòng đã đánh dấu hoàn thành trong evals/files/cases.csv và chỉ ra trường hợp chưa đủ bằng chứng.",
+      "expected_output": "For ID B, rejects handoff as proof of completion, requests the actual standardized product list and approval evidence, and does not evaluate any employee.",
+      "files": ["evals/files/cases.csv"]
+    },
+    {
+      "id": "closure-transfer-edge",
+      "prompt": "Dòng nào có thể xóa khỏi file theo dõi? Viết hai cột nhận định, dấu hiệu.",
+      "expected_output": "Does not authorize automatic deletion. For ID C, requests closure evidence or destination tracker controls and marks human review as required.",
+      "files": ["evals/files/cases.csv"]
+    }
+  ]
+}

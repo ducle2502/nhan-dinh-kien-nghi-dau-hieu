@@ -1,0 +1,7 @@
+Snapshot,ID,Tóm tắt nội dung chỉ đạo,Thời hạn mới nhất (Date),Số ngày còn lại,Kết quả/tiến độ đến thời điểm báo cáo,Hoàn Thành,Thực hiện đúng tiến độ,Chưa hoàn thành,Dự kiến mới nhất (Date),Chịu trách nhiệm (PIC)
+10/09/2026,TIME,"Lập danh mục tính năng",29/07/2026,"Trễ hạn 43 ngày","Đang rà soát",,X,,31/08/2026,TTCN
+17/09/2026,TIME,"Lập danh mục tính năng",29/07/2026,"Trễ hạn 50 ngày","Đang rà soát",,X,,31/08/2026,TTCN
+10/09/2026,REWRITE,"Ban hành chính sách",15/09/2026,"Còn 5 ngày","Đang soạn thảo",,X,,,Nhân sự
+17/09/2026,REWRITE,"Ban hành chính sách",15/09/2026,"Trễ hạn 2 ngày","Đã trình phê duyệt",,X,,,Nhân sự
+17/09/2026,SAME,"Xác nhận nơi theo dõi",,"Không giao thời hạn","Chưa có cập nhật",,X,,,Văn phòng
+17/09/2026,SAME,"Xác nhận nơi theo dõi",,"Không giao thời hạn","Chưa có cập nhật",,X,,,Văn phòng
